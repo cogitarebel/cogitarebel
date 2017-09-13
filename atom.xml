@@ -6,7 +6,7 @@
   <link href="/cogitarebel/atom.xml" rel="self"/>
   
   <link href="https://cogitarebel.github.io/cogitarebel/"/>
-  <updated>2017-09-08T16:00:00.000Z</updated>
+  <updated>2017-09-13T03:06:41.000Z</updated>
   <id>https://cogitarebel.github.io/cogitarebel/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>瀏覽器推薦 firefox(火狐)</title>
+    <link href="https://cogitarebel.github.io/cogitarebel/software-firefox/"/>
+    <id>https://cogitarebel.github.io/cogitarebel/software-firefox/</id>
+    <published>2017-09-13T03:06:41.000Z</published>
+    <updated>2017-09-13T03:06:41.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;火狐是一款什麼樣子的瀏覽器？&quot;&gt;&lt;a href=&quot;#火狐是一款什麼樣子的瀏覽器？&quot; class=&quot;headerlink&quot; title=&quot;火狐是一款什麼樣子的瀏覽器？&quot;&gt;&lt;/a&gt;火狐是一款什麼樣子的瀏覽器？&lt;/h2&gt;&lt;p&gt;Firefox是由&lt;a href=&quot;https://zh.wikipedia.org/wiki/Mozilla&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mozilla&lt;/a&gt;開發的瀏覽器。這個非營利組織大約在1998年左右從Netscape中脫離出來（這是一款已經死掉的瀏覽器…現在應該沒有什麼人在使用了吧。）而後來Mozilla社群秉持著自由軟體社群該有的風氣，開始了Firefox瀏覽器的開發。基於&lt;a href=&quot;https://www.mozilla.org/zh-TW/about/manifesto/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mozilla的十點宣言&lt;/a&gt;，主要可以想成下列幾點&lt;strong&gt;開放、易於取用、個人隱私、平衡商業與公眾利益&lt;/strong&gt;。 雖然以前我也棄坑跑去使用google chrome，但基於對於個人的思想理念，認為開源、知識共享是一件很重要且必要的事物，並且Firefox有對於&lt;strong&gt;個人隱私強大且細部的設定&lt;/strong&gt;，能讓使用者在短時間內解決各種疑難雜症。最重要的效能方面，現在改版過後的火狐啟動速度與chrome相較之下，已經沒有優劣之分（甚至有時候的更新版本會比調色盤快速）。當然如果你需要許多阿里佈達的東西，也可以藉由火狐的各種擴充套件增強（對，瀏覽器的各種擴充套件如果我沒有記錯是從火狐開始的）&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="電腦" scheme="https://cogitarebel.github.io/cogitarebel/categories/computer/"/>
+    
+    
+      <category term="linux" scheme="https://cogitarebel.github.io/cogitarebel/tags/linux/"/>
+    
+      <category term="software" scheme="https://cogitarebel.github.io/cogitarebel/tags/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>身體姿勢</title>
+    <link href="https://cogitarebel.github.io/cogitarebel/health-posture/"/>
+    <id>https://cogitarebel.github.io/cogitarebel/health-posture/</id>
+    <published>2017-09-09T06:42:02.000Z</published>
+    <updated>2017-09-09T06:42:02.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;由於本人之前有過椎間盤突出的經歷，雖然已經有好轉的跡象，卻沒有好好花時間修養身體。之前有位朋友也有相同的症狀，因此詢問他一些保健方式。下面所列出的幾點即是幾個不錯的撇步，主要針對的是平常沒有時間運動，但想要好好的讓身體休息，有需要的朋友可以看看下面的菜單。由於需要讓脊椎休息，因此下列的動作幾乎都是靜態只練肌力的部份。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="健康" scheme="https://cogitarebel.github.io/cogitarebel/categories/health/"/>
+    
+    
+      <category term="health" scheme="https://cogitarebel.github.io/cogitarebel/tags/health/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo + Github 安裝大補帖</title>
@@ -65,7 +107,7 @@
     <link href="https://cogitarebel.github.io/cogitarebel/py-numpy/"/>
     <id>https://cogitarebel.github.io/cogitarebel/py-numpy/</id>
     <published>2017-09-08T12:56:50.000Z</published>
-    <updated>2017-09-08T15:11:56.596Z</updated>
+    <updated>2017-09-11T16:00:00.000Z</updated>
     
     <summary type="html">
     
