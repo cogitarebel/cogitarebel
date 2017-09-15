@@ -6,7 +6,7 @@
   <link href="/cogitarebel/atom.xml" rel="self"/>
   
   <link href="https://cogitarebel.github.io/cogitarebel/"/>
-  <updated>2017-09-13T03:06:41.000Z</updated>
+  <updated>2017-09-15T07:06:37.000Z</updated>
   <id>https://cogitarebel.github.io/cogitarebel/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Transfrom Yout Habits -改變你的習慣</title>
+    <link href="https://cogitarebel.github.io/cogitarebel/health-habits/"/>
+    <id>https://cogitarebel.github.io/cogitarebel/health-habits/</id>
+    <published>2017-09-15T07:06:37.000Z</published>
+    <updated>2017-09-15T07:06:37.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;想要成功？先做好每日功課吧。&quot;&gt;&lt;a href=&quot;#想要成功？先做好每日功課吧。&quot; class=&quot;headerlink&quot; title=&quot;想要成功？先做好每日功課吧。&quot;&gt;&lt;/a&gt;想要成功？先做好每日功課吧。&lt;/h2&gt;&lt;p&gt;日行千里，始於足下。滴水穿石。這些耳熟能詳的句子是不是在你耳邊迴繞著？先說結論：故事大部分都只有說精彩的結果，而不告訴你辛苦的過程，為了達到這樣的目標背後有多少辛苦的習慣維持呢？所以說相較於專注在結果，應該要先專注在每日的訓練上（例如你想要托福考好，目標不是分數、而是你的每日到底練習了多少。）對於這樣的論述，我是抱持著正面的看法，如果能夠每日過好每一天，自然而然你能夠在評斷的時候發揮出你應有的實力。當然，如果你只是想要臨時抱佛腳，突然爆發的可能性不是沒有，但是實在是低到大概跟中樂透差不多的境界吧？&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="健康" scheme="https://cogitarebel.github.io/cogitarebel/categories/health/"/>
+    
+    
+      <category term="生活" scheme="https://cogitarebel.github.io/cogitarebel/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="health" scheme="https://cogitarebel.github.io/cogitarebel/tags/health/"/>
+    
+  </entry>
   
   <entry>
     <title>瀏覽器推薦 firefox(火狐)</title>
@@ -269,7 +291,7 @@
     <link href="https://cogitarebel.github.io/cogitarebel/fedora_installation/"/>
     <id>https://cogitarebel.github.io/cogitarebel/fedora_installation/</id>
     <published>2017-07-13T14:45:21.000Z</published>
-    <updated>2017-09-02T13:53:15.641Z</updated>
+    <updated>2017-09-14T13:02:48.041Z</updated>
     
     <summary type="html">
     
@@ -280,9 +302,9 @@
       <category term="電腦" scheme="https://cogitarebel.github.io/cogitarebel/categories/computer/"/>
     
     
-      <category term="fedora" scheme="https://cogitarebel.github.io/cogitarebel/tags/fedora/"/>
-    
       <category term="linux" scheme="https://cogitarebel.github.io/cogitarebel/tags/linux/"/>
+    
+      <category term="fedora" scheme="https://cogitarebel.github.io/cogitarebel/tags/fedora/"/>
     
   </entry>
   
