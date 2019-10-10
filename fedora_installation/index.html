@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+
+
+
+
+<html class="theme-next muse" lang="zh-TW">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Arial:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/blog/css/main.css?v=6.0.6" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon-next.png?v=6.0.6">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32-next.png?v=6.0.6">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16-next.png?v=6.0.6">
+
+
+  <link rel="mask-icon" href="/blog/images/logo.svg?v=6.0.6" color="#222">
+
+
+  <link rel="manifest" href="/blog/images/manifest.json">
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/blog/',
+    scheme: 'Muse',
+    version: '6.0.6',
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="After a while, I figure out that I cannot install Fedora from the minimum installation. I will spend a lot of time on adjustment of the system, and the result of the operation system is pretty bad(cra">
+<meta name="keywords" content="linux,fedora">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Adjust your fedora system after installed it(安裝之後的調校)">
+<meta property="og:url" content="https://daoprinciple.github.io/blog/fedora_installation/index.html">
+<meta property="og:site_name" content="Dao Principle">
+<meta property="og:description" content="After a while, I figure out that I cannot install Fedora from the minimum installation. I will spend a lot of time on adjustment of the system, and the result of the operation system is pretty bad(cra">
+<meta property="og:locale" content="zh-TW">
+<meta property="og:updated_time" content="2019-03-12T08:56:52.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Adjust your fedora system after installed it(安裝之後的調校)">
+<meta name="twitter:description" content="After a while, I figure out that I cannot install Fedora from the minimum installation. I will spend a lot of time on adjustment of the system, and the result of the operation system is pretty bad(cra">
+
+
+
+  <link rel="alternate" href="/blog/atom.xml" title="Dao Principle" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="https://daoprinciple.github.io/blog/fedora_installation/">
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Adjust your fedora system after installed it(安裝之後的調校) | Dao Principle</title>
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112067100-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112067100-1');
+</script>
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-TW">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"> 
+
+<div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/blog/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Dao Principle</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">Science, life, attitude</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切換導航欄">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+          
+  <li class="menu-item menu-item-about">
+    <a href="/blog/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br>關於</a>
+</li>
+
+      
+        
+        
+          
+  <li class="menu-item menu-item-tags">
+    <a href="/blog/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>標籤</a>
+</li>
+
+      
+        
+        
+          
+  <li class="menu-item menu-item-studylist">
+    <a href="/blog/studylist/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-book"></i> <br>studylist</a>
+</li>
+
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜尋</a>
+        </li>
+      
+    </ul>
+  
+
+  
+    
+
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+    
+
+  
+
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜尋..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+  
+
+
+
+ </div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://daoprinciple.github.io/blog/blog/fedora_installation/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Zazart Tsai">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/blog/images/zazartsai2.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Dao Principle">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">Adjust your fedora system after installed it(安裝之後的調校)</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2017-07-13T22:45:21+08:00">2017-07-13</time>
+            
+
+            
+            
+              
+                
+              
+            
+
+            
+              
+              <span class="post-meta-divider">|</span>
+              
+
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+              <time title="更新於" itemprop="dateModified" datetime="2019-03-12T16:56:52+08:00">2019-03-12</time>
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/categories/computer/" itemprop="url" rel="index"><span itemprop="name">電腦</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                <span title="文章字數"></span>
+              
+
+              
+
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>After a while, I figure out that I cannot install Fedora from the minimum installation. I will spend a lot of time on adjustment of the system, and the result of the operation system is pretty bad(crack a lots!!!) In the final installation of the laptop OS, I just install the standard Fedora workstation.</p>
+<a id="more"></a>
+<h2 id="installation-setup"><a class="header-anchor" href="#installation-setup">¶</a>Installation Setup</h2>
+<h3 id="partition-of-the-disk"><a class="header-anchor" href="#partition-of-the-disk">¶</a>partition of the disk</h3>
+<p>Actually, t he automatic choosen for the partition disk is enought for the daily usage. I use the ASUS laptop UX32L with 500GB HDD and 12GB RAM.</p>
+<h3 id="packages-that-installed-from-dnf"><a class="header-anchor" href="#packages-that-installed-from-dnf">¶</a>Packages that installed from dnf</h3>
+<ul>
+<li>
+<p>vim<br>
+The most common editor of the file. I added additional plugin manager called <a href="https://github.com/VundleVim/Vundle.vim" target="_blank" rel="noopener">Vundle</a>. About more detail, you can check <a href="http://wiki.csie.ncku.edu.tw/vim/vimrc" target="_blank" rel="noopener">csie@ncku(成大資工)</a> and <a href="http://note.drx.tw/2008/01/vimrc-config.html" target="_blank" rel="noopener">凍仁筆記</a></p>
+</li>
+<li>
+<p>ibus-chewing</p>
+<p>input chinese</p>
+</li>
+<li>
+<p><a href="http://conky.sourceforge.net/documentation.html" target="_blank" rel="noopener">conky</a> &amp; conky-manager</p>
+<p>I like this fancy desktop things. Plz don’t judge me about this.</p>
+</li>
+<li>
+<p><a href="http://www.stellarium.org/" target="_blank" rel="noopener">Stellarium</a></p>
+<p>If you like the star, you should download this software! This is one of the most powerful tool during the observation of the star.</p>
+</li>
+<li>
+<p><a href="https://hexo.io/zh-tw/docs/" target="_blank" rel="noopener">Hexo</a></p>
+<p>I just want to share what I learn and establish an blog.</p>
+</li>
+<li>
+<p><a href="https://mpv.io/" target="_blank" rel="noopener">MPV</a></p>
+<p>If you want to watch movies or videos, you should install simplest interface software! Multiple video can be played in a pretty good performance.</p>
+</li>
+<li>
+<p><a href="https://github.com/sivel/speedtest-cli" target="_blank" rel="noopener">speedtest</a> =&gt; A great cli tool testing the internet speed from <strong><a href="http://Speedtest.net" target="_blank" rel="noopener">Speedtest.net</a></strong>.</p>
+</li>
+<li>
+<p><a href="http://pwr.github.io/Solaar/" target="_blank" rel="noopener">Solaar</a> =&gt; If you want to use Logitech Unifying Receiver on your linux system, this software is the best option.</p>
+</li>
+<li>
+<p><a href="http://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html#features" target="_blank" rel="noopener">TLP</a></p>
+<p>This can improve the power performance at laptop, but according to <a href="https://www.omgubuntu.co.uk/2018/02/better-battery-life-on-fedora-linux" target="_blank" rel="noopener">OMG Ubuntu</a>, Fedora 28 will set the same settings as TLP do. I do not know if this information is correct or just a gossip.</p>
+</li>
+<li>
+<p><s>[redshift](『sudo dnf install gnome-shell-extension-redshift』) =&gt; save your eyes(I no longer use this at all)</s></p>
+</li>
+<li>
+<p><a href="https://kodi.tv" target="_blank" rel="noopener">Kodi</a><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<p>A great Media center software with lots of add-ons. I do not install this but I think this will be useful if I need this someday in the future.</p>
+</li>
+</ul>
+<h2 id="software-download-directly-from-website"><a class="header-anchor" href="#software-download-directly-from-website">¶</a>Software download directly from website</h2>
+<h3 id="internet-surfer-google-chrome"><a class="header-anchor" href="#internet-surfer-google-chrome">¶</a>Internet Surfer -  Google Chrome</h3>
+<p>Originaly, I use Firefox, but i need some function that firefox doesn’t provide. You should know how to install this. If you don’t, google it.</p>
+<h3 id="picture-photo-viewer-xnviewmp"><a class="header-anchor" href="#picture-photo-viewer-xnviewmp">¶</a>Picture/Photo viewer - <a href="http://www.xnview.com/en/xnviewmp/" target="_blank" rel="noopener">XnViewMP</a></h3>
+<p>Last vertified version &amp; date (F27; v.0.89-2, x86_64;  2018.2.28)<br>
+There are two things that should be notice when you try to install this program. First, the two linux versions of this program is protable version and deb package version. If you want to install it from dnf, RPM should be download from <a href="'http://download.xnview.com/'">HERE</a> and then choose the proper version(XnViewMP-linux.x86_64.rpm). Secondly, there is a conflict message during the installation. To solve this problem, you can directly visit <a href="'http://newsgroup.xnview.com/viewtopic.php?t=32411'">THIS WEBSITE</a>.</p>
+<p><strong>Steps to solve the installtion prob</strong></p>
+<ol>
+<li>dnf install rpmrebuild</li>
+<li>rpmrebuild -ep XnViewMP-linux.x86_64.rpm</li>
+<li>Search for the lines containing / and /usr/bin (lines like %dir %attr(0755, root, root) 「/」), and remove them. They are starting in about line 396.</li>
+<li>install the repackaged rpm.</li>
+<li>Done!</li>
+</ol>
+<h3 id="pdf-reader-foxit"><a class="header-anchor" href="#pdf-reader-foxit">¶</a>PDF Reader - <a href="https://www.foxitsoftware.com/pdf-reader/" target="_blank" rel="noopener">Foxit</a></h3>
+<p>Just follow the installation steps online. However, in Fedora 29, this software may crash at the very beginning. Therefore, I use Okular instead.</p>
+<h3 id="music-deadbeef"><a class="header-anchor" href="#music-deadbeef">¶</a>Music - <a href="http://deadbeef.sourceforge.net/" target="_blank" rel="noopener">DeaDBeef</a></h3>
+<p><strong>Probs.</strong><br>
+Add additional tools for compelling the program:</p>
+<ol>
+<li>No intltoll<br>
+<code>dnf install intltool</code></li>
+<li>No package 『jansson』 found<br>
+<code>dnf install jansson-devel</code></li>
+<li>Cannot play .wma?<br>
+you should get the encoder - <strong><a href="https://gstreamer.freedesktop.org/modules/gst-plugins-bad.html" target="_blank" rel="noopener">gstreamer-bad</a></strong>.<br>
+<code>dnf install gstreamer-plugins-bad</code><br>
+<strong>Notice</strong> that you should be careful that your repo should include the &quot; <strong>rpmfusion-nonfree</strong> &quot;</li>
+</ol>
+<h3 id="matlab"><a class="header-anchor" href="#matlab">¶</a>Matlab</h3>
+<ul>
+<li>
+<p>Installation problems</p>
+<p>After I install 2018b, Matlab cannot run in the proper way, it only can be run in the command line method. Other users seems to have a similar questions: <a href="https://www.mathworks.com/matlabcentral/answers/410994-matlab-fails-to-start-on-fedora-28-desktop" target="_blank" rel="noopener">MATLAB fails to start on Fedora 28 (desktop)</a>. Fortunately, it has a easy solution for it: <a href="https://www.mathworks.com/matlabcentral/answers/399207-matlab-does-not-start-on-fedora-28#answer_321678" target="_blank" rel="noopener">Matlab does not start on Fedora 28</a>. If you have additional startup problem, maybe you can check here: <a href="https://www.mathworks.com/matlabcentral/answers/98599-why-will-matlab-not-start-up-properly-on-my-linux-or-unix-based-system" target="_blank" rel="noopener">Why will MATLAB not start up properly on my Linux or UNIX based system?</a></p>
+</li>
+<li>
+<p>Additionally, to start matlab, opengl should be added at the end of the command. The handmade icon for matlab could be useful for startup the software.</p>
+<p><code>matlab -softwareopengl</code></p>
+</li>
+<li>
+<p><a href="https://www.mathworks.com/matlabcentral/answers/102428-how-do-i-uninstall-matlab-products-on-a-unix-or-linux-machine" target="_blank" rel="noopener">Uninstall in Linux</a></p>
+</li>
+</ul>
+<h2 id="adjustment-of-the-initial-system"><a class="header-anchor" href="#adjustment-of-the-initial-system">¶</a>Adjustment of the initial system</h2>
+<p>dnf update</p>
+<h3 id="cannot-adjust-the-screen-brightness-from-the-keyboard-funcfion-key-f26"><a class="header-anchor" href="#cannot-adjust-the-screen-brightness-from-the-keyboard-funcfion-key-f26">¶</a>Cannot adjust the screen brightness from the keyboard funcfion key (F26)</h3>
+<p>[Answer Fedora-Brightness change hotkeys not working](『sudo grub2-mkconfig -o /boot/grub2/grub.cfg』)<br>
+I found the answer from the Internet, but I still took a note here in case.</p>
+<ol>
+<li>sudo gedit /etc/default/grub</li>
+<li>add <strong>acpi_osi=</strong> in GRUB_CMDLINE_LINUX= and leave a space between this parameter and others.</li>
+<li>sudo grub2-mkconfig -o /boot/grub2/grub.cfg</li>
+</ol>
+<h3 id="adding-repostory-to-dnf"><a class="header-anchor" href="#adding-repostory-to-dnf">¶</a><a href="'https://rpmfusion.org/Configuration/'">Adding repostory to dnf</a></h3>
+<h3 id="gnome-tweak-from-https-extensions-gnome-org"><a class="header-anchor" href="#gnome-tweak-from-https-extensions-gnome-org">¶</a>gnome-tweak from <a href="https://extensions.gnome.org/" target="_blank" rel="noopener">https://extensions.gnome.org/</a></h3>
+<p><a href="https://wiki.gnome.org/Projects/GnomeShellIntegrationForChrome/Installation#Fedora_Linux" target="_blank" rel="noopener">Check this out!</a><br>
+The only prob that I faced is installing the chrome-gnome-shell to use the installation from this website.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dnf copr enable region51/chrome-gnome-shell</span><br><span class="line">dnf install chrome-gnome-shell</span><br></pre></td></tr></table></figure>
+<h3 id="resources-that-you-can-find-on-the-internet"><a class="header-anchor" href="#resources-that-you-can-find-on-the-internet">¶</a>Resources that you can find on the Internet</h3>
+<ul>
+<li><a href="https://fedoramagazine.org/" target="_blank" rel="noopener">Fedora Magazine</a><br>
+Directly subscribe it! Sometimes the magazine will provide useful tips for the Fedora user. Additionally, it will remind you to upgrade the system.</li>
+<li><a href="https://discussion.fedoraproject.org/" target="_blank" rel="noopener">Fedora discussion</a><br>
+You have any problems about using the Fedora? no problem at all! the community will help you to solve the questions! This project is useful for you to ask question to other users. Even the developers!</li>
+</ul>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://fedoramagazine.org/convert-your-fedora-silverblue-to-htpc-with-kodi/" target="_blank" rel="noopener">Fedora magazine</a> introduce this. <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/blog/tags/linux/" rel="tag"># linux</a>
+          
+            <a href="/blog/tags/fedora/" rel="tag"># fedora</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blog/hexo-test-mdandhackmd/" rel="next" title="Markdown 顯示語法測試">
+                <i class="fa fa-chevron-left"></i> Markdown 顯示語法測試
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/blog/LP-nobodycansaveme/" rel="prev" title="Nobody can save me 中文歌詞翻譯-LinkinPark">
+                Nobody can save me 中文歌詞翻譯-LinkinPark <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            本站概要
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/blog/images/zazartsai2.jpg" alt="Zazart Tsai">
+            
+              <p class="site-author-name" itemprop="name">Zazart Tsai</p>
+              <p class="site-description motion-element" itemprop="description">Personal reading and summary database</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/blog/archives">
+                
+                    <span class="site-state-item-count">48</span>
+                    <span class="site-state-item-name">文章</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/blog/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">5</span>
+                    <span class="site-state-item-name">分類</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/blog/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">26</span>
+                    <span class="site-state-item-name">標籤</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/blog/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+            <div class="cc-license motion-element" itemprop="license">
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank" rel="external nofollow">
+                <img src="/blog/images/cc-by-nc-sa.svg" alt="Creative Commons">
+              </a>
+            </div>
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#installation-setup"><span class="nav-number">1.</span> <span class="nav-text">¶Installation Setup</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#partition-of-the-disk"><span class="nav-number">1.1.</span> <span class="nav-text">¶partition of the disk</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#packages-that-installed-from-dnf"><span class="nav-number">1.2.</span> <span class="nav-text">¶Packages that installed from dnf</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#software-download-directly-from-website"><span class="nav-number">2.</span> <span class="nav-text">¶Software download directly from website</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#internet-surfer-google-chrome"><span class="nav-number">2.1.</span> <span class="nav-text">¶Internet Surfer -  Google Chrome</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#picture-photo-viewer-xnviewmp"><span class="nav-number">2.2.</span> <span class="nav-text">¶Picture/Photo viewer - XnViewMP</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#pdf-reader-foxit"><span class="nav-number">2.3.</span> <span class="nav-text">¶PDF Reader - Foxit</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#music-deadbeef"><span class="nav-number">2.4.</span> <span class="nav-text">¶Music - DeaDBeef</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#matlab"><span class="nav-number">2.5.</span> <span class="nav-text">¶Matlab</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#adjustment-of-the-initial-system"><span class="nav-number">3.</span> <span class="nav-text">¶Adjustment of the initial system</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#cannot-adjust-the-screen-brightness-from-the-keyboard-funcfion-key-f26"><span class="nav-number">3.1.</span> <span class="nav-text">¶Cannot adjust the screen brightness from the keyboard funcfion key (F26)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#adding-repostory-to-dnf"><span class="nav-number">3.2.</span> <span class="nav-text">¶Adding repostory to dnf</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#gnome-tweak-from-https-extensions-gnome-org"><span class="nav-number">3.3.</span> <span class="nav-text">¶gnome-tweak from https://extensions.gnome.org/</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#resources-that-you-can-find-on-the-internet"><span class="nav-number">3.4.</span> <span class="nav-text">¶Resources that you can find on the Internet</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2017 &mdash; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate"> 
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Zazart Tsai</span>
+
+  
+
+  
+</div>
+
+
+  
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" rel="external nofollow" href="https://hexo.io">Hexo</a> 強力驅動</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主題 &mdash; <a class="theme-link" target="_blank" rel="external nofollow" href="https://github.com/theme-next/hexo-theme-next">NexT.Muse</a> v6.0.6</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/utils.js?v=6.0.6"></script>
+
+  <script type="text/javascript" src="/blog/js/src/motion.js?v=6.0.6"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=6.0.6"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=6.0.6"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/bootstrap.js?v=6.0.6"></script>
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/blog/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" type="text/css">
+
+   
+  
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
