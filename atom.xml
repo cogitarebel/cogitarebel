@@ -247,9 +247,9 @@
     
       <category term="生活" scheme="https://daoprinciple.github.io/blog/tags/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="雜學" scheme="https://daoprinciple.github.io/blog/tags/%E9%9B%9C%E5%AD%B8/"/>
-    
       <category term="態度" scheme="https://daoprinciple.github.io/blog/tags/%E6%85%8B%E5%BA%A6/"/>
+    
+      <category term="雜學" scheme="https://daoprinciple.github.io/blog/tags/%E9%9B%9C%E5%AD%B8/"/>
     
   </entry>
   
@@ -400,16 +400,16 @@
       <category term="電腦" scheme="https://daoprinciple.github.io/blog/categories/computer/"/>
     
     
-      <category term="software" scheme="https://daoprinciple.github.io/blog/tags/software/"/>
-    
       <category term="linux" scheme="https://daoprinciple.github.io/blog/tags/linux/"/>
+    
+      <category term="software" scheme="https://daoprinciple.github.io/blog/tags/software/"/>
     
   </entry>
   
   <entry>
     <title>莊子筆記-逍遙遊</title>
-    <link href="https://daoprinciple.github.io/blog/read-zhuangzi-Free%20and%20Easy%20Wandering/"/>
-    <id>https://daoprinciple.github.io/blog/read-zhuangzi-Free and Easy Wandering/</id>
+    <link href="https://daoprinciple.github.io/blog/read-zhuangzi-FreeEasyWandering/"/>
+    <id>https://daoprinciple.github.io/blog/read-zhuangzi-FreeEasyWandering/</id>
     <published>2018-02-23T03:18:55.000Z</published>
     <updated>2018-02-23T11:18:54.000Z</updated>
     
@@ -435,8 +435,8 @@
   
   <entry>
     <title>莊子筆記-逍遙遊</title>
-    <link href="https://daoprinciple.github.io/blog/read-zhuangzi-FreeEasyWandering/"/>
-    <id>https://daoprinciple.github.io/blog/read-zhuangzi-FreeEasyWandering/</id>
+    <link href="https://daoprinciple.github.io/blog/read-zhuangzi-Free%20and%20Easy%20Wandering/"/>
+    <id>https://daoprinciple.github.io/blog/read-zhuangzi-Free and Easy Wandering/</id>
     <published>2018-02-23T03:18:55.000Z</published>
     <updated>2018-02-23T11:18:54.000Z</updated>
     
