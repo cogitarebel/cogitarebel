@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://daoprinciple.github.io/blog/"/>
-  <updated>2019-12-24T13:56:51.833Z</updated>
+  <updated>2020-01-09T11:53:31.837Z</updated>
   <id>https://daoprinciple.github.io/blog/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>上班8小時，練習只做重要的事</title>
+    <link href="https://daoprinciple.github.io/blog/read-WhatToDoWhenTheresTooMuchToDo/"/>
+    <id>https://daoprinciple.github.io/blog/read-WhatToDoWhenTheresTooMuchToDo/</id>
+    <published>2020-01-09T11:53:31.000Z</published>
+    <updated>2020-01-09T11:53:31.837Z</updated>
+    
+    <content type="html"><![CDATA[<p>書本內容精簡化的概要，主要用來參考使用方法，並且實踐在自己的生活上。</p><a id="more"></a><ol><li><p>前一天決定該做哪些事並反省 （15 min結束）</p><ul><li><p>列下每日最重要的三件事情，並且一定要完成。</p></li><li><p>只保留與目標相關的工作</p></li><li><p>每晚反思/每週反思</p></li></ul></li><li><p>把該做的事，排進行事曆</p><ul><li>建立執行SOP</li><li>非關自己的工作用力打太極推出去！</li></ul></li><li><p>專注工作，不分心</p><ul><li>時間限制事務 <strong>Google日曆</strong></li><li>要記得的一些雜事 <strong>待辦清單+備忘錄(Trello)</strong></li><li>一次專心一件事情，並且<strong>設定死線</strong> （一定要在什麼時間之前做到怎樣的程度）</li><li>雜事留在休息時後做掉</li></ul></li><li><p>快速處理隨時進來的訊息</p><ul><li>減少處理訊息的時間（e.g.收發email一天一次，網路訊息一天三次）</li><li>三分鐘可以馬上做掉的事情就馬上處理</li></ul></li><li><p>終結鬼打牆的問題</p><ul><li><p>修正工作流程中不順暢的部分，去除、置換掉不堪使用的部分。</p></li><li><p>執行管理：流程時，遇到失敗或瓶頸，要適時更新或調整</p></li><li><p><strong>目標：工作少、效率高</strong></p><p>在最短的時間內達到最高的效率</p></li></ul></li><li><p>做好你的能量管理（調整身心至最佳狀態）</p><ul><li>睡眠（7.5-9 Hr）</li><li>飲食營養均衡</li><li>心理（冥想）</li><li>運動（也需要訓練）</li></ul></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;書本內容精簡化的概要，主要用來參考使用方法，並且實踐在自己的生活上。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="reading" scheme="https://daoprinciple.github.io/blog/categories/reading/"/>
+    
+    
+      <category term="生活" scheme="https://daoprinciple.github.io/blog/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="態度" scheme="https://daoprinciple.github.io/blog/tags/%E6%85%8B%E5%BA%A6/"/>
+    
+      <category term="雜學" scheme="https://daoprinciple.github.io/blog/tags/%E9%9B%9C%E5%AD%B8/"/>
+    
+      <category term="管理" scheme="https://daoprinciple.github.io/blog/tags/%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>Grammar checking list</title>
@@ -46,13 +75,14 @@
     <link href="https://daoprinciple.github.io/blog/physics-ClassicalMechanics/"/>
     <id>https://daoprinciple.github.io/blog/physics-ClassicalMechanics/</id>
     <published>2019-11-19T14:12:53.000Z</published>
-    <updated>2019-11-19T14:12:53.435Z</updated>
+    <updated>2019-12-31T07:36:30.000Z</updated>
     
-    <content type="html"><![CDATA[<p>This is the summary for myself to review the essential concepts that I learned in classical mechanics. There should be some wrong information that I might fix. I wish the whole process can be finished in a year for writing this note. This should be useful for reviewing the classical mechanics.</p><a id="more"></a><h2 id="introduction"><a class="header-anchor" href="#introduction">¶</a>Introduction</h2><h3 id="the-fundamental-concept-of-establishing-physics"><a class="header-anchor" href="#the-fundamental-concept-of-establishing-physics">¶</a>The fundamental concept of establishing physics</h3><p>Based on the macroscopic picture of the world, physics is a subject that try to find the general law for understanding the world. Therefore, the basic understanding is the motion of an object, which is the position and the time. For a single point particle in an isolated system without any external interaction, with the initial velocity and the position, the status of the system can be well defined.</p><ul><li><p><strong>Law</strong><br>Induction from the most fundamental observation concludes with simple rules, which can only applied in specific condition and with some exceptions.</p></li><li><p><strong>Principle</strong><br>The rule widely accepted nearly without any exceptions.</p></li><li><p><strong>Theory</strong><br>The concrete theoretical system to explain the whole phenomena in a reasonable</p></li><li><p><strong>Hypothesis</strong><br>The primary rules conclude from the experiment or the theory without enough strength observation condition or completed theorem statement. However, it is the pioneer to build the base of concrete system for explaining the matter world.</p></li></ul><h3 id="the-essential-concepts-in-classical-mechanics"><a class="header-anchor" href="#the-essential-concepts-in-classical-mechanics">¶</a>The essential concepts in classical mechanics</h3><ol><li>Newton’s law of motion</li><li>Work and energy</li><li>Oscillation motion</li><li>Wave</li><li>Lagrangian</li><li>Rotation</li></ol><h3 id="essential-math-tools-that-you-should-deeply-understand"><a class="header-anchor" href="#essential-math-tools-that-you-should-deeply-understand">¶</a>essential Math tools that you should deeply understand</h3><ol><li>Basic understanding of high school math</li><li>Linear algebra<br>eigenstate, eigenvalue</li><li>Vector calculus<br>gradient, divergence, curl, Laplace</li><li>Fourier Transform<br>Including complex plane, phasor</li><li>Calculus of Variations</li></ol><h3 id="reference"><a class="header-anchor" href="#reference">¶</a>Reference</h3><p>Notes in this series are based on following several books, including:</p><ol><li><a href="http://www.feynmanlectures.caltech.edu/info/" target="_blank" rel="noopener">The Feynman Lectures on Physics</a><br>Lots of words, but worth to read to get the concept in a easy and clear picture</li><li>Classical dynamics of particles and systems<br>Classic usage textbook for teaching classical dynamics in department of physics</li><li>David Morin’s Classical mechanics</li><li>Landau Mechanics</li></ol>]]></content>
+    <content type="html"><![CDATA[<p>This is the summary for myself to review the essential concepts that I learned in classical mechanics. There should be some wrong information that I might fix. I wish the whole process can be finished in a year for writing this note. This should be useful for reviewing the classical mechanics.</p><h3 id="more"><a class="header-anchor" href="#more">¶</a><a id="more"></a></h3><h2 id="introduction"><a class="header-anchor" href="#introduction">¶</a>Introduction</h2><h3 id="the-fundamental-concept-of-establishing-physics"><a class="header-anchor" href="#the-fundamental-concept-of-establishing-physics">¶</a>The fundamental concept of establishing physics</h3><p>Based on the macroscopic picture of the world, physics is a subject that try to find the general law for understanding the world. Therefore, the basic understanding is the motion of an object, which is the position and the time. For a single point particle in an isolated system without any external interaction, with the initial velocity and the position, the status of the system can be well defined.</p><ul><li><p><strong>Law</strong><br>Induction from the most fundamental observation concludes with simple rules, which can only applied in specific condition and with some exceptions.</p></li><li><p><strong>Principle</strong><br>The rule widely accepted nearly without any exceptions.</p></li><li><p><strong>Theory</strong><br>The concrete theoretical system to explain the whole phenomena in a reasonable</p></li><li><p><strong>Hypothesis</strong><br>The primary rules conclude from the experiment or the theory without enough strength observation condition or completed theorem statement. However, it is the pioneer to build the base of concrete system for explaining the matter world.</p></li></ul><h3 id="essential-concepts-in-classical-mechanics"><a class="header-anchor" href="#essential-concepts-in-classical-mechanics">¶</a>Essential concepts in classical mechanics</h3><h4 id="newton-s-law-of-motion"><a class="header-anchor" href="#newton-s-law-of-motion">¶</a>Newton’s law of motion</h4><h4 id="work-and-energy"><a class="header-anchor" href="#work-and-energy">¶</a>Work and energy</h4><h4 id="oscillation-motion"><a class="header-anchor" href="#oscillation-motion">¶</a>Oscillation motion</h4><ul><li><p>Simple harmonic oscillator</p></li><li><p>Damped oscillator</p></li><li><p>Forced oscillator</p></li><li><p>Coupled oscillator</p><p>Eigenstate and eigenvalue problem</p></li><li><p>N-coupled oscillator<br>​</p></li></ul><h4 id="wave"><a class="header-anchor" href="#wave">¶</a>Wave</h4><ul><li>Wave equation from discrete to continuous</li><li>Fourier series and Fourier transformation</li></ul><h4 id="lagrangian"><a class="header-anchor" href="#lagrangian">¶</a>Lagrangian</h4><ul><li>Least action principle</li><li>Symmetrical properties in space and time</li><li>Central field, central mass and Reduced mass</li><li>​</li></ul><h4 id="rotation"><a class="header-anchor" href="#rotation">¶</a>Rotation</h4><ul><li>Rigid body</li><li>​</li></ul><h3 id="essential-math-tools-that-you-should-deeply-understand"><a class="header-anchor" href="#essential-math-tools-that-you-should-deeply-understand">¶</a>Essential Math tools that you should deeply understand</h3><ol><li>Basic understanding of high school math</li><li>Linear algebra<br>eigenstate, eigenvalue</li><li>Vector calculus<br>gradient, divergence, curl, Laplace</li><li>Fourier Transform<br>Including complex plane, phasor</li><li>Calculus of Variations</li></ol><h2 id="reference"><a class="header-anchor" href="#reference">¶</a>Reference</h2><p>Notes in this series are based on following several books, including:</p><ol><li><a href="http://www.feynmanlectures.caltech.edu/info/" target="_blank" rel="noopener">The Feynman Lectures on Physics</a><br>Lots of words, but worth to read to get the concept in a easy and clear picture</li><li>Classical dynamics of particles and systems<br>Classic usage textbook for teaching classical dynamics in department of physics</li><li>David Morin’s Classical mechanics</li><li>Landau Mechanics</li></ol>]]></content>
     
     <summary type="html">
     
       &lt;p&gt;This is the summary for myself to review the essential concepts that I learned in classical mechanics. There should be some wrong information that I might fix. I wish the whole process can be finished in a year for writing this note. This should be useful for reviewing the classical mechanics.&lt;/p&gt;
+&lt;h3 id=&quot;more&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#more&quot;&gt;¶&lt;/a&gt;
     
     </summary>
     
@@ -267,9 +297,9 @@
       <category term="murmur" scheme="https://daoprinciple.github.io/blog/categories/murmur/"/>
     
     
-      <category term="health" scheme="https://daoprinciple.github.io/blog/tags/health/"/>
-    
       <category term="生活" scheme="https://daoprinciple.github.io/blog/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="health" scheme="https://daoprinciple.github.io/blog/tags/health/"/>
     
       <category term="Introspection" scheme="https://daoprinciple.github.io/blog/tags/Introspection/"/>
     
@@ -294,9 +324,9 @@
       <category term="murmur" scheme="https://daoprinciple.github.io/blog/categories/murmur/"/>
     
     
-      <category term="health" scheme="https://daoprinciple.github.io/blog/tags/health/"/>
-    
       <category term="生活" scheme="https://daoprinciple.github.io/blog/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="health" scheme="https://daoprinciple.github.io/blog/tags/health/"/>
     
   </entry>
   
@@ -347,9 +377,9 @@
     
       <category term="生活" scheme="https://daoprinciple.github.io/blog/tags/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="雜學" scheme="https://daoprinciple.github.io/blog/tags/%E9%9B%9C%E5%AD%B8/"/>
-    
       <category term="態度" scheme="https://daoprinciple.github.io/blog/tags/%E6%85%8B%E5%BA%A6/"/>
+    
+      <category term="雜學" scheme="https://daoprinciple.github.io/blog/tags/%E9%9B%9C%E5%AD%B8/"/>
     
   </entry>
   
@@ -503,33 +533,6 @@
       <category term="linux" scheme="https://daoprinciple.github.io/blog/tags/linux/"/>
     
       <category term="software" scheme="https://daoprinciple.github.io/blog/tags/software/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>莊子筆記-逍遙遊</title>
-    <link href="https://daoprinciple.github.io/blog/read-zhuangzi-Free%20and%20Easy%20Wandering/"/>
-    <id>https://daoprinciple.github.io/blog/read-zhuangzi-Free and Easy Wandering/</id>
-    <published>2018-02-23T03:18:55.000Z</published>
-    <updated>2018-02-23T11:18:54.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>本篇筆記主要內容爲莊子逍遙遊的後半段 <strong>堯讓天下 與大瓠之種</strong>。</p><a id="more"></a><h3 id="堯讓天下"><a class="header-anchor" href="#堯讓天下">¶</a>堯讓天下</h3><p>文章中提到三爲聖人<strong>許由、</strong></p><ul><li><p>日月爝火<br>陶養自己的身心先，才有能力照亮他人。</p></li><li><p>越俎代庖<br>盡自己的心力做好自己分內的事務，而並非追求外在的名聲</p></li><li><p>藐射神人<br>其神凝，使物不疵癘而年谷熟。養身的功夫。但他只形容了形態，並沒有教導你該怎麼達到這樣的功夫。**豈唯形骸有聾盲哉？。是其言也，猶時女也。**這句話犯了很嚴重的邏輯謬誤。我要說服你，要提出證據來，而不是做人身攻擊。</p></li><li><p>物莫之傷<br>家國天下都是身外之物，先固好自己的概念（同一段文字講同一件事情講了三次…），也許是從不同的角度切入看一件事物？</p></li><li><p>喪其天下 - 放下對擁有的執著</p></li></ul><h3 id="大瓠之種"><a class="header-anchor" href="#大瓠之種">¶</a>大瓠之種</h3><ul><li><p>拙用於大<br>你怎麼用你的心<br>有用之用，無用之用？ 從不同的觀點對同一件事物會有不一樣的見解。沒有什麼叫做一定有用與一定無用的。這世界上的絕對價值觀是不存在的，因此，所需要做的事情便是找到物品（或者說你的心）適合去的地方。用對心，那就可以逍遙於世界上的任何地方。</p></li><li><p>逍遙乎傾乎其下<br>睡爽爽，睡覺的時候是人最放鬆的時候（嗎）。</p></li><li><p>无何有之鄉</p><p>認得无何是本鄉。人死去之後，會去的地方可以稱作无何有之鄉，或者說心靈可以到達的最終目的地，或者是人生最後的目的地。</p><h3 id="古代詩人對於莊子的看法"><a class="header-anchor" href="#古代詩人對於莊子的看法">¶</a>古代詩人對於莊子的看法(?)</h3><blockquote><p>去國辭家謫異方，中心自怪少憂傷。<br>為尋莊子知歸處，認得無何是本鄉。</p><p><em>白居易</em> &lt;讀莊子&gt;</p></blockquote><p>​</p><blockquote><p>莫聽穿林打葉聲，</p><p>何妨吟嘯且徐行</p><p>竹杖芒鞋輕勝馬，誰怕？</p><p>一蓑煙雨任平生</p><p>料峭春風吹酒醒，微冷</p><p>山頭斜照卻相迎</p><p>回首向來蕭瑟處</p><p>歸去，也無風雨也無晴。</p><p><em>蘇軾</em> &lt;定風坡&gt;</p></blockquote><blockquote><p>身適忘四支，心適忘是非。</p><p>既適又忘適，不知吾是誰。</p><p>百體如槁木，兀然無所知。</p><p>方寸如死灰，寂然無所思。</p><p>今日復明日，身心忽兩遺。</p><p>行年三十九，歲暮日斜時。</p><p>四十心不動，吾今其庶幾。</p><p><em>白居易</em> &lt;隱几&gt;</p></blockquote></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本篇筆記主要內容爲莊子逍遙遊的後半段 &lt;strong&gt;堯讓天下 與大瓠之種&lt;/strong&gt;。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="閱讀" scheme="https://daoprinciple.github.io/blog/categories/%E9%96%B1%E8%AE%80/"/>
-    
-    
-      <category term="health" scheme="https://daoprinciple.github.io/blog/tags/health/"/>
-    
-      <category term="生活" scheme="https://daoprinciple.github.io/blog/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-      <category term="雜學" scheme="https://daoprinciple.github.io/blog/tags/%E9%9B%9C%E5%AD%B8/"/>
     
   </entry>
   

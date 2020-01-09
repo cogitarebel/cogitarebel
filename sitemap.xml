@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://daoprinciple.github.io/blog/tools-GrammerCheckingList/</loc>
+    <loc>https://daoprinciple.github.io/blog/read-WhatToDoWhenTheresTooMuchToDo/</loc>
     
-    <lastmod>2019-12-24T13:56:51.833Z</lastmod>
+    <lastmod>2020-01-09T11:53:31.837Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://daoprinciple.github.io/blog/physics-ClassicalMechanics/</loc>
     
-    <lastmod>2019-11-19T14:12:53.435Z</lastmod>
+    <lastmod>2019-12-31T07:36:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://daoprinciple.github.io/blog/tools-GrammerCheckingList/</loc>
+    
+    <lastmod>2019-12-24T13:56:51.833Z</lastmod>
     
   </url>
   
@@ -142,14 +149,14 @@
   </url>
   
   <url>
-    <loc>https://daoprinciple.github.io/blog/categories/index.html</loc>
+    <loc>https://daoprinciple.github.io/blog/tags/index.html</loc>
     
     <lastmod>2018-06-06T11:25:26.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://daoprinciple.github.io/blog/tags/index.html</loc>
+    <loc>https://daoprinciple.github.io/blog/categories/index.html</loc>
     
     <lastmod>2018-06-06T11:25:26.000Z</lastmod>
     
@@ -177,14 +184,14 @@
   </url>
   
   <url>
-    <loc>https://daoprinciple.github.io/blog/hexo-restart/</loc>
+    <loc>https://daoprinciple.github.io/blog/hexo-test-mdandhackmd/</loc>
     
     <lastmod>2018-03-28T16:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://daoprinciple.github.io/blog/hexo-test-mdandhackmd/</loc>
+    <loc>https://daoprinciple.github.io/blog/hexo-restart/</loc>
     
     <lastmod>2018-03-28T16:00:00.000Z</lastmod>
     
