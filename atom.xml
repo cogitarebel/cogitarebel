@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://daoprinciple.github.io/blog/"/>
-  <updated>2020-02-03T15:41:53.431Z</updated>
+  <updated>2020-04-04T08:23:54.285Z</updated>
   <id>https://daoprinciple.github.io/blog/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Last one to know 中文歌詞翻譯 Steve Aoki (Ft. Mike Shinodat and Lights)</title>
+    <link href="https://daoprinciple.github.io/blog/Lyrics-SteveAoki_LastOnetoKnow/"/>
+    <id>https://daoprinciple.github.io/blog/Lyrics-SteveAoki_LastOnetoKnow/</id>
+    <published>2020-04-03T13:46:21.000Z</published>
+    <updated>2020-04-04T08:23:54.285Z</updated>
+    
+    <content type="html"><![CDATA[<p>翻譯部分把重複的內容刪掉了，有些翻譯感覺不太順有點怪。感覺自己的使用文字不是很熟練，基本的片語基本上都忘了。</p><div class="video-container"><iframe src="//www.youtube.com/embed/2ROcqR5xj5o" frameborder="0" allowfullscreen></iframe></div><p>Reference: <a href="https://genius.com/Steve-aoki-last-one-to-know-lyrics" target="_blank" rel="noopener">Lyrics is copied from Genius</a></p><a id="more"></a><p>[Verse 1: Mike Shinoda]<br>Got a matchbook in my pocket<br>Got my hand on it right now<br>If I lit a match in this office<br>I’d burn this motherfucker down</p><p>口袋中的番仔火<br>利馬就想拿到手<br>辦公室裡點起番仔火<br>我會把這他馬的燒掉</p><p>[Pre-Chorus: Mike Shinoda]<br>I thought we were on the same side<br>Crazy, but solidified<br>Tell me what you think has changed<br>We were seeing eye-to-eye and then<br>Something started happening<br>Before I had a chance to say<br>I know</p><p>我以為我們在同陣線<br>很瘋狂，卻很真實<br>告訴我你認為什麼變了<br>我們曾對着眼便<br>開始了什麼<br>在我有機會說什麼之前<br>我懂</p><p>[Chorus: Lights]<br>I had a plan, but I never had time<br>I had a reason, but I never had rhyme<br>I should have known it was over, but I’m<br>The last one to know, the last one to know now</p><p>我有個計劃，但我沒時間<br>我有個理由，但我從來沒韻腳<br>我應當知道一切都結束了但我<br>是最後才知道的，最後一個才知道的</p><p>[Post-Chorus: Mike Shinoda]<br>The last one, last one<br>Last one to know now</p><p>最後一個，最後一個<br>最後一個才知道的</p><p>[Verse 2: Mike Shinoda]<br>Had a call about you this morning<br>It said that you were movin’ on, ha<br>It took everything in that moment<br>Just to hold my fucking tongue<br>Just to hold my fucking tongue</p><p>早晨打了個關於你的電話<br>說你要搬走了 哈<br>在那瞬間收拾了一切<br>就上閉上那他馬的嘴<br>就上閉上那他馬的嘴</p><p>[Chorus: Lights]<br>I didn’t know I was bringing you down<br>I didn’t lose what you thought you had found<br>And now you’re tellin’ me you’re leaving me, oh<br>The last one to know, the last one to know now</p><p>我不知道是我擊潰了你<br>我不曾失去你以為你你找到的<br>但現在你卻說你要離開我 歐<br>就我最後一個才知道，就最後一個才知道</p><p>[Bridge: Mike Shinoda &amp; Lights]<br>Under a black sky, tell me that it’s not my fault<br>Is it so?<br>And I know</p><p>夜色下告訴我這不是錯的<br>是嗎？<br>我懂得</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;翻譯部分把重複的內容刪掉了，有些翻譯感覺不太順有點怪。感覺自己的使用文字不是很熟練，基本的片語基本上都忘了。&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/2ROcqR5xj5o&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;Reference: &lt;a href=&quot;https://genius.com/Steve-aoki-last-one-to-know-lyrics&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lyrics is copied from Genius&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="murmur" scheme="https://daoprinciple.github.io/blog/categories/murmur/"/>
+    
+    
+      <category term="lyrics" scheme="https://daoprinciple.github.io/blog/tags/lyrics/"/>
+    
+      <category term="Mike Shinoda" scheme="https://daoprinciple.github.io/blog/tags/Mike-Shinoda/"/>
+    
+      <category term="Steve Aoki" scheme="https://daoprinciple.github.io/blog/tags/Steve-Aoki/"/>
+    
+  </entry>
   
   <entry>
     <title>Parallel hdf5 writing for python3 (h5py)</title>
@@ -327,36 +356,11 @@
       <category term="murmur" scheme="https://daoprinciple.github.io/blog/categories/murmur/"/>
     
     
-      <category term="生活" scheme="https://daoprinciple.github.io/blog/tags/%E7%94%9F%E6%B4%BB/"/>
-    
       <category term="health" scheme="https://daoprinciple.github.io/blog/tags/health/"/>
+    
+      <category term="生活" scheme="https://daoprinciple.github.io/blog/tags/%E7%94%9F%E6%B4%BB/"/>
     
       <category term="Introspection" scheme="https://daoprinciple.github.io/blog/tags/Introspection/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第二次暫停更新</title>
-    <link href="https://daoprinciple.github.io/blog/life-pause-1/"/>
-    <id>https://daoprinciple.github.io/blog/life-pause-1/</id>
-    <published>2018-08-30T15:07:12.000Z</published>
-    <updated>2019-11-12T14:13:21.040Z</updated>
-    
-    <content type="html"><![CDATA[<p>這是第二次停止更新了，堅持做一件事情，真的比想像中的還要困難。這次的停止更新會停止到自己有辦法在學海中生存下去為止。最晚應該兩年後會開張，哈。有很多的想法想要寫出來，但卻沒有時間…。沒有意外的話，之後的更新都會以 <strong>英文</strong> 呈現，並且都是與研究/物理相關的內容，也許內容會亂七八糟的。</p><a id="more"></a><p>這三個月期間，回到原本的學校繼續攻讀博士班，延續之前未完成的實驗。沒有想到的是比原本預期的實驗結果還要花時間，並且花費許多時間在各種事情上。不知道為什麼時間總是莫名的被吃掉，看的書也比過去少很多，好像很多事情都沒有做一樣。</p><p>是該好好想想為什麼會讓自己的時間變得如此緊密。為了要讓自己跟上其他事務，因此先暫時停止更新這裏的內容，專注於個人的課業上。也許等到某天有空，會再回來這裏分享自己所學。目前在整理知是這塊，還是需要花費些許時間阿。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;這是第二次停止更新了，堅持做一件事情，真的比想像中的還要困難。這次的停止更新會停止到自己有辦法在學海中生存下去為止。最晚應該兩年後會開張，哈。有很多的想法想要寫出來，但卻沒有時間…。沒有意外的話，之後的更新都會以 &lt;strong&gt;英文&lt;/strong&gt; 呈現，並且都是與研究/物理相關的內容，也許內容會亂七八糟的。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="murmur" scheme="https://daoprinciple.github.io/blog/categories/murmur/"/>
-    
-    
-      <category term="生活" scheme="https://daoprinciple.github.io/blog/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-      <category term="health" scheme="https://daoprinciple.github.io/blog/tags/health/"/>
     
   </entry>
   
@@ -365,7 +369,7 @@
     <link href="https://daoprinciple.github.io/blog/health-meditation/"/>
     <id>https://daoprinciple.github.io/blog/health-meditation/</id>
     <published>2018-08-30T15:07:03.000Z</published>
-    <updated>2019-11-12T14:40:51.837Z</updated>
+    <updated>2020-03-05T06:42:02.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="什麼是冥想-meditation-？"><a class="header-anchor" href="#什麼是冥想-meditation-？">¶</a>什麼是冥想(Meditation)？</h2><p>前鎮子在斷斷續續的在心情級差的狀態下，做了些許的冥想訓練。但其實我所學的內容大概是囫圇吞棗亂七八糟學習法，東方的打坐、內觀隨便學習了一點，西方的內容也隨便看了一點，接著就照上面所說的自行嘗試訓練了一陣子（對，會提到一陣子就是因為後來又耍廢把它丟棄了）。這篇文章 <strong>適合想知道冥想再做什麼，想面對現實的朋友看的</strong>。一開始可以看看下列的<a href="https://www.ted.com/talks/andy_puddicombe_all_it_takes_is_10_mindful_minutes?language=zh-tw" target="_blank" rel="noopener">Andy puddicombe 在TED talk的演講</a>，講，另外一個則是<a href="https://zh.wikipedia.org/wiki/%E5%86%A5%E6%83%B3" target="_blank" rel="noopener">維基介紹</a>。</p><a id="more"></a><h2 id="該怎麼冥想？"><a class="header-anchor" href="#該怎麼冥想？">¶</a>該怎麼冥想？</h2><p>如果是初學者的話，其實每天花十分鐘的時間就夠了（最難的是持之以恆），其實我覺得不該把這種持之以恆=困難的觀念塞入腦袋中，這會造成我們對於這樣的事情感到困難。<a href="http://sobakome.pixnet.net/blog/post/26720904" target="_blank" rel="noopener">七個冥想的步驟</a>與<a href="http://sobakome.pixnet.net/blog/post/26720904" target="_blank" rel="noopener">冥想的問題</a>也許是在面對這樣的問題時會需要知道的。如果你不喜歡這一套而喜歡看影片可以看看<a href="https://www.headspace.com" target="_blank" rel="noopener">HeadSpace</a>，詳盡帶你進入冥想的世界。如果剛進入這個世界的朋友，可以下載他們的app來使用。雖然沒有付費只能使用試用版內容，但若想了解或是體驗而已，仍然可以嘗試看看。</p><p>如果說對於東方冥想比較有興趣的可以參考蔡璧名老師的<a href="https://www.youtube.com/watch?v=-MCffZ0SnNM&amp;list=PLCxv2dja6CBXHRvIO2XPDOXdCKlsYsWNl" target="_blank" rel="noopener">穴道導引</a>介紹。之前買了他的書看完之後只做了一陣子好睡操其他部份都忽略掉了（我相信有規律運動習的朋友應該不太會需要後方的那些運動步驟的，但前方的好睡操的確是一個入門冥想的好方法）這簡易的導引，可以讓人全身放鬆，並且把時間專注於當下，算是一種滿不錯的氣的導引方式。</p><p>上面說了這麼多，最簡單的就是 <strong>每天找個適合的時間</strong>， <strong>抽五分鐘計時</strong>， <strong>盡情發呆</strong>。而姿勢只要是隨意放鬆的舒服就可以了，但是請不要做出會讓自己身體不舒服的姿勢像是彎腰駝背或者是盤腿坐。盤腿坐其實很傷害脊椎會讓錐間盤突出的。</p><h2 id="有可能走火入魔嗎？"><a class="header-anchor" href="#有可能走火入魔嗎？">¶</a>有可能走火入魔嗎？</h2><p>但冥想的確會使得人腦與心情改變從而造成心理障礙。大概就是自己讀哲學自以為很厲害可以超出其他人的想法一樣（或稱之為<a href="https://zh.wikipedia.org/wiki/%E8%87%AA%E5%A4%A7%E5%9E%8B%E5%A6%84%E6%83%B3" target="_blank" rel="noopener">自大型妄想-Grandiose delusions</a>），而<a href="http://kirikou0826.pixnet.net/blog/post/4390475-%E3%80%8C%E9%9D%88%E4%BF%AE%E6%89%93%E5%9D%90%E3%80%8D%E8%88%87%E3%80%8C%E8%B5%B0%E7%81%AB%E5%85%A5%E9%AD%94%E3%80%8D" target="_blank" rel="noopener">劉奕壯的部落格</a>提到佛教對於靈修打坐跟走火入魔的關係其實雖然是有但是卻沒那麼嚴重的，而<a href="http://novus.pixnet.net/blog/post/33550229-%E5%86%A5%E6%83%B3%E7%9A%84%E9%BB%91%E6%9A%97%E9%9D%A2" target="_blank" rel="noopener">冥想的黑暗面</a>也提到許多關於冥想的問題。</p><p><strong>個人認為走火入魔只要是人做事情就是會發生在身上的</strong>。論點發展是這樣的，先 <strong>定義走火入魔</strong> ：一件事情過度的影響到自己的身心狀態，使得個人無法維持在健康狀態面對周遭環境所帶來的影響，便可以稱之為走火入魔。如果是這樣定義的話，其實很多你我生活週邊的人們走火入魔的非常嚴重。對於一件事情過於入迷而放棄吃飯（我說的就是廢寢忘食）還有雜物太多使得人們過得很焦慮，甚至是只要活著不小心遭遇到各種人生中的不幸或大幸（強烈的被環境改變原來的生活模式）便會造成人性的改變。</p><p>那在冥想的人強調走火入魔，是因為平常並沒有好好的聆聽自己內心的聲音從而調整自己的腦袋。而冥想有點類似把這種行為放大。放大觀察自己的身體、自己的心靈。把事物放置在自己平常其實不太會碰觸的議題上。從日常生活的經驗來看，有些人對於未知事物的恐懼，是很難想像的巨大，而這樣的想像會造成最後在冥想之後會有焦慮的發生。簡而言之，個人認為冥想是一個很棒的心靈旅程體驗，如果因為害怕走火入魔而不去冥想，實在是太浪費身為人的認知能力了。就如同這樣的論證一樣：</p><p>人吃東西會產生能量與代謝並且衰老<br>人隨著時間的推移會衰老並且死亡<br>=&gt; <strong>人吃東西會死亡</strong><br>如果你認同上面這句話是有道理的廢話，那冥想會走火入魔你也會覺得是廢話了。凡是，都沒有絕對的總是會有危險阿。</p><h2 id="冥想其實是腦袋整理方法的總稱"><a class="header-anchor" href="#冥想其實是腦袋整理方法的總稱">¶</a>冥想其實是腦袋整理方法的總稱。</h2><p>上面零零落落說了不少關於冥想的方法，這其實是一種技術，就如同打球運動跑步一樣，而且入門門檻很低。當你在想事情時，或者說發呆，我也認為是一種整理腦袋的方式。在現在這種繁忙的社會中，各種資訊的無時無刻接收，會使得人消化不良。可以想想以前國中高中時期的填鴨教學，現在我們的生活就是生活在這樣的狀態下，充滿著各種不一樣的填鴨，沒有深度的內容只有博眼球的畫面與標題。而冥想，可以讓自己的人生有個暫停。所有有內含的曲目，在高潮之前，總是會有個暫停或者低潮吧！甚至是表演開始時的屏息以待，與精彩演出的最後總是會有短暫的安靜，這種 <strong>自然現象</strong> 都可以告訴我們起起伏伏是正常現象，而冥想就是讓你在這起伏的人生中，建立一個合適的心靈狀態的絕佳方式。</p><h2 id="操作技巧"><a class="header-anchor" href="#操作技巧">¶</a>操作技巧</h2><p>以下的內容節錄自20170206Time的健康專欄。這裏所顯示的四個內容有前兩個我自己親自做過，並且覺得對於靜下心來好好檢視目前的身體狀況有著很好的幫助。</p><h3 id="全身掃描"><a class="header-anchor" href="#全身掃描">¶</a>全身掃描</h3><p>找個舒服的姿勢，躺著或做着都可以。緩慢的將自己的意識從腳到頭的轉移注意力。一開始時不要注意太快。這其實跟穴道導引有異曲同工之妙，但我傾向於從頭開始做這個練習。可以從任督二脈開始（感覺很像是在練氣功XD）。但其實沒有，只是依照著自己的注意力轉移。</p><h3 id="專注呼吸練習"><a class="header-anchor" href="#專注呼吸練習">¶</a>專注呼吸練習</h3><p>這是很初階的冥想練習，這不僅僅是將自己那胡思亂想的腦袋重新整理，也是為了不拘泥於某一個執著。專注呼吸有助於讓自己抽離本身的思想，這對於穩定內心有很大的幫助。但其實一般來說，只要學會專注呼吸五分鐘，就恭喜從新手村跳出來拉。需要注意的一點，不要太執著、拘泥於想要把腦袋中的想法壓抑下去，而是放開它讓它到處跑，跑久了，自然會回到呼吸身上。</p><h3 id="全身伸展-瑜伽"><a class="header-anchor" href="#全身伸展-瑜伽">¶</a>全身伸展（瑜伽）</h3><p>在伸展的時候，放鬆全身，並且配合呼吸，似乎也有助於心靈層面的放鬆。並且要有循環的做每個動作。隨意的伸展也可以。可以找尋自己喜歡的方式做一個循環。</p><h3 id="走路冥想"><a class="header-anchor" href="#走路冥想">¶</a>走路冥想</h3><p>這我也有玩過，但角的時間太多的人才會想要做這件事。假如無法花這麼多時間在走路的話，就把上面三個練習合在一起做，高效率的冥想方法。但是走路冥想似乎也是個不錯的選擇，注意自己的腳步，跟呼吸。總而言之，盡量專注在自己的身體，感受踏下去的每一步。換個角度想，這是一種活在當下的練習，能夠腳踏實地的做好每一步，其實會感覺滿不錯的，這跟我之前長跑的時候，會做的事情一樣，專注在自己的腳步與呼吸上，好好地想想自己自ㄞ幹嘛。如果喜歡運動的朋友，也許可以試試看用慢跑練習冥想也是一種不錯的選擇。</p>]]></content>
     
