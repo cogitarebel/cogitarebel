@@ -375,6 +375,215 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://daoprinciple.github.io/blog/blog/linux-GraphicCardInstall/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Zazart Tsai">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/blog/images/zazartsai2.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Dao Principle">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/blog/linux-GraphicCardInstall/" itemprop="url">Graphic card installation (From AMD to Nvidia)</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-06-20T10:38:04+08:00">2020-06-20</time>
+            
+
+            
+            
+              
+                
+              
+            
+
+            
+              
+              <span class="post-meta-divider">|</span>
+              
+
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+              <time title="Post modified" itemprop="dateModified" datetime="2020-06-22T22:13:55+08:00">2020-06-22</time>
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/categories/電腦/" itemprop="url" rel="index"><span itemprop="name">電腦</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/linux-GraphicCardInstall/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="linux-GraphicCardInstall/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                <span title="Symbols count in article">1.6k</span>
+              
+
+              
+
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <a id="more"></a>
+<p>At the beginning, I thought installing the AMD graphic card is easy as I think, However, it is so hard for me to figure out the proper driver for the fedora. The offical guide told that you should install the graphic card under Ubuntu, Redhat, or CentOS. That means I should use nvidia instead of AMD graphic card. However, there are some note that I did try to solve that problem. However, in the end, I giving up :)</p>
+<p>In my opinion, if you like to build every by yourself with lot of time on it, you can try it. Otherwise, this will spend lots of time on finding the correct solution for it. Besides, cuda is originally supported by the nvidia card, which should be better for the 3D plotting rendering and for the computation in the future.</p>
+<h2 id="environment"><a class="header-anchor" href="#environment">¶</a>Environment</h2>
+<ul>
+<li>
+<p>Find the OS version</p>
+<p><code>uname -r</code><br>
+5.6.12-300.fc32.x86_64</p>
+</li>
+<li>
+<p>Hardware</p>
+<p>ASUS STRIX-RX560-O4G-GAMING</p>
+</li>
+</ul>
+<h3 id="graphic"><a class="header-anchor" href="#graphic">¶</a>Graphic</h3>
+<ul>
+<li>
+<p>Read the display of the system</p>
+<p><code>sudo lshw -C display</code></p>
+</li>
+</ul>
+<p><a href="https://github.com/GPUOpen-Drivers/AMDVLK" target="_blank" rel="noopener">AMD Open Source Driver for Vulkan</a></p>
+<p>Installation Instructions</p>
+<ol>
+<li>
+<p><a href="%22https://vulkan.lunarg.com/sdk/home%22">Install Vulkan SDK </a></p>
+<p><a href="%22https://vulkan.lunarg.com/doc/sdk/1.2.135.0/linux/getting_started.html%22">Installation Guide</a></p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://daoprinciple.github.io/blog/blog/health-BodyTraining/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -394,7 +603,7 @@
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/blog/health-BodyTraining/" itemprop="url">肉身訓練</a></h2>
+                <a class="post-title-link" href="/blog/health-BodyTraining/" itemprop="url">身體訓練</a></h2>
         
 
         <div class="post-meta">
@@ -423,7 +632,7 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2020-04-10T08:24:26+08:00">2020-04-10</time>
+              <time title="Post modified" itemprop="dateModified" datetime="2020-05-23T17:02:12+08:00">2020-05-23</time>
             
           </span>
 
@@ -475,7 +684,7 @@
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                <span title="Symbols count in article">6.1k</span>
+                <span title="Symbols count in article">6.7k</span>
               
 
               
@@ -2012,188 +2221,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://daoprinciple.github.io/blog/blog/read-201903-2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Zazart Tsai">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/blog/images/zazartsai2.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Dao Principle">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/blog/read-201903-2/" itemprop="url">201903 Read Note-2</a></h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-04-23T10:26:02+08:00">2019-04-23</time>
-            
-
-            
-            
-              
-            
-
-            
-              
-              <span class="post-meta-divider">|</span>
-              
-
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-              <time title="Post modified" itemprop="dateModified" datetime="2019-04-23T18:26:02+08:00">2019-04-23</time>
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/categories/閱讀/" itemprop="url" rel="index"><span itemprop="name">閱讀</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/blog/read-201903-2/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="read-201903-2/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-symbolscount">
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                <span title="Symbols count in article">4.5k</span>
-              
-
-              
-
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>Becase there are lots of work that I need to finish, this time I only spent few time on writting this reading memo. I wish I can use the time wisely to record what I’ve done in present.</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/blog/read-201903-2/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2245,7 +2272,7 @@
                 
                   <a href="/blog/archives">
                 
-                    <span class="site-state-item-count">53</span>
+                    <span class="site-state-item-count">54</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -2257,6 +2284,8 @@
                 <div class="site-state-item site-state-categories">
                   <a href="/blog/categories/index.html">
                     
+                    
+                      
                     
                       
                     
