@@ -135,14 +135,14 @@
 
 
   <meta name="description" content="Although python is a powerful tools which can link to other modules with trivial effort and understanding of the fundamental processing mechanism. However, the parallel writing hdf5 is not in the defa">
-<meta name="keywords" content="program,linux,fedora,python">
+<meta name="keywords" content="linux,fedora,program,python">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Parallel hdf5 writing for python3 (h5py)">
 <meta property="og:url" content="https://daoprinciple.github.io/blog/py-ParalelWritingh5Withh5py/index.html">
 <meta property="og:site_name" content="Dao Principle">
 <meta property="og:description" content="Although python is a powerful tools which can link to other modules with trivial effort and understanding of the fundamental processing mechanism. However, the parallel writing hdf5 is not in the defa">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-02-03T15:41:53.431Z">
+<meta property="og:updated_time" content="2020-11-04T03:30:47.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Parallel hdf5 writing for python3 (h5py)">
 <meta name="twitter:description" content="Although python is a powerful tools which can link to other modules with trivial effort and understanding of the fundamental processing mechanism. However, the parallel writing hdf5 is not in the defa">
@@ -422,7 +422,7 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2020-02-03T23:41:53+08:00">2020-02-03</time>
+              <time title="Post modified" itemprop="dateModified" datetime="2020-11-04T11:30:47+08:00">2020-11-04</time>
             
           </span>
 
@@ -474,7 +474,7 @@
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                <span title="Symbols count in article">9.7k</span>
+                <span title="Symbols count in article">9.6k</span>
               
 
               
@@ -547,7 +547,7 @@
 </ol>
 <p><strong>Personal recommendation</strong>: <strong>Install this hdf5 externally</strong>. I don’t know if the default repo installing (e.g. dnf) is different from the compiled one, so I installed another hdf5 out of the system lib.</p>
 <p>If it shows <code>configure error c++ preprocessor /lib/cpp fails sanity check</code>, add <strong>glibc-headers gcc-c++</strong> from dnf.</p>
-   <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ CC=/usr/<span class="built_in">local</span>/mpi/bin/mpicc ./configure --<span class="built_in">enable</span>-parallel -<span class="built_in">enable</span>-shared --prefix=&lt;install-directory&gt;</span><br><span class="line">$ make		<span class="comment"># build the library</span></span><br><span class="line">$ make check	<span class="comment"># verify the correctness</span></span><br><span class="line">$ make install</span><br></pre></td></tr></table></figure>
+   <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ CC=/usr/lib64/openmpi/bin/mpicc ./configure --<span class="built_in">enable</span>-parallel -<span class="built_in">enable</span>-shared --prefix=&lt;install-directory&gt;</span><br><span class="line">$ make		<span class="comment"># build the library</span></span><br><span class="line">$ make check	<span class="comment"># verify the correctness</span></span><br><span class="line">$ make install</span><br></pre></td></tr></table></figure>
 <ol start="2">
 <li>
 <p>Download the source code of <a href="https://github.com/h5py/h5py" target="_blank" rel="noopener">h5py from github</a> and go the the directory. Install it.</p>
@@ -614,11 +614,11 @@
       
         <div class="post-tags">
           
-            <a href="/blog/tags/program/" rel="tag"># program</a>
-          
             <a href="/blog/tags/linux/" rel="tag"># linux</a>
           
             <a href="/blog/tags/fedora/" rel="tag"># fedora</a>
+          
+            <a href="/blog/tags/program/" rel="tag"># program</a>
           
             <a href="/blog/tags/python/" rel="tag"># python</a>
           
@@ -733,7 +733,7 @@
                 
                   <a href="/blog/archives">
                 
-                    <span class="site-state-item-count">57</span>
+                    <span class="site-state-item-count">58</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -887,13 +887,7 @@
                     
                       
                     
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">35</span>
+                    <span class="site-state-item-count">36</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
